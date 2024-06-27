@@ -54,8 +54,8 @@ function App() {
         <div className="card-body">
           <h2 className="card-title">Configuration</h2>
           <p className="card-text">IMPORTANT: You must supply your OpenAI API key in this box. It will be used to query the OpenAI API.</p>
-          <input
-            type="text"
+            <input
+            type="password"
             className="form-control"
             placeholder="Enter your OpenAI API Key here"
             value={apiKey}
